@@ -1,24 +1,37 @@
 {
-  "name": "startbootstrap-sb-admin-2",
-  "title": "SB Admin 2",
-  "version": "3.3.7+1",
-  "homepage": "http://startbootstrap.com/template-overviews/sb-admin-2",
+  "title": "Logo Nav",
+  "name": "startbootstrap-logo-nav",
+  "version": "4.0.0-beta",
+  "description": "A Bootstrap template with a logo in the navbar",
+  "keywords": [
+    "css",
+    "sass",
+    "html",
+    "responsive",
+    "theme",
+    "template"
+  ],
+  "homepage": "https://startbootstrap.com/template-overviews/logo-nav",
+  "bugs": {
+    "url": "https://github.com/BlackrockDigital/startbootstrap-logo-nav/issues",
+    "email": "feedback@startbootstrap.com"
+  },
+  "license": "MIT",
   "author": "Start Bootstrap",
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
-  },
-  "devDependencies": {
-    "browser-sync": "^2.13.0",
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "^2.0.10",
-    "gulp-header": "^1.8.7",
-    "gulp-less": "^3.1.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^1.5.4"
-  },
+  "contributors": [
+    "David Miller (http://davidmiller.io/)"
+  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/BlackrockDigital/startbootstrap-sb-admin-2.git"
+    "url": "https://github.com/BlackrockDigital/startbootstrap-logo-nav.git"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.11.1"
+  },
+  "devDependencies": {
+    "browser-sync": "2.18.13",
+    "gulp": "^3.9.1"
   }
 }
